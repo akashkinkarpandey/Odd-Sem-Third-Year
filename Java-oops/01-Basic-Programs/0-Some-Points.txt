@@ -6,4 +6,10 @@
 
 .lang package is there by default
 
+.exception will be thrown if you dont give command line arguments where they are required as args[0] or args[1] in your program
+
+.notice the comments in each program to see how to give command line arguments
+
+.or see "0How-To-Open-Java-In-Notepad" folder to use command line
+
 
