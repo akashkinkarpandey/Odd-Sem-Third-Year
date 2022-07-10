@@ -1,0 +1,9 @@
+.Use of notepad to write java +terminal to execute code preffered in lab
+
+.command line arguments preffered instead of Scanner,BufferedReader
+
+.but Scanner and BufferedReader can be used
+
+.lang package is there by default
+
+
