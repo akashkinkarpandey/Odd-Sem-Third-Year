@@ -26,5 +26,6 @@ class ArithmeticOperations1
         System.out.println("Sum is "+(a+b));
         System.out.println("Difference is "+(a-b));
         System.out.println("Product is "+(a*b));
+        sc.close();
     }
 }
