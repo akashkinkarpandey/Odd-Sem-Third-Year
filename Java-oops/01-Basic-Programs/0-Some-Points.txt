@@ -12,4 +12,8 @@
 
 .or see "0How-To-Open-Java-In-Notepad" folder to use command line
 
+.Integer.parseInt() converts string to Integer
+
+.no need to import library for Integer.parseInt()
+
 
