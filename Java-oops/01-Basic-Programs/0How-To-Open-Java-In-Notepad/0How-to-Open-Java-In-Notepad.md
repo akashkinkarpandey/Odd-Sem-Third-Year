@@ -20,6 +20,10 @@
 # We will execute it using command prompt
 
 ## For opening command prompt go to the folder where your .java file was created
+## Right click on your java file and click on properties
+![Pic 51](Pic51.png)
+## View the file location
+![Pic 52](Pic52.png)
 ---
 ## *Step 3*
 ## Have a look at where the arrow is pointing->
