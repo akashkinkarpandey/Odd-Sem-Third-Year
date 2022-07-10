@@ -12,7 +12,7 @@
 ![Pic 3](Pic3.png)
 ## Click on save
 ![Pic 4](Pic4.png)
-## Program name should be same as file name
+## file name should be same as class name
 ## Write  programName.java(here it is:-AreaPerimeterOfTriangle.java) and click on save
 ![Pic 5](Pic5.png)
 
