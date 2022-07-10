@@ -19,11 +19,13 @@
 # Now you have made your java file
 # We will execute it using command prompt
 
-## For opening command prompt go to the folder where your .java file was created
+## Lets find out where our java file was made
 ## Right click on your java file and click on properties
 ![Pic 51](Pic51.png)
 ## View the file location
 ![Pic 52](Pic52.png)
+
+## Now,For opening command prompt go to the folder where your .java file was created with help of location you found just now
 ---
 ## *Step 3*
 ## Have a look at where the arrow is pointing->
