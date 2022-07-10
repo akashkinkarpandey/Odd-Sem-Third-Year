@@ -12,6 +12,7 @@
 ![Pic 3](Pic3.png)
 ## Click on save
 ![Pic 4](Pic4.png)
+## Program name should be same as file name
 ## Write  programName.java(here it is:-AreaPerimeterOfTriangle.java) and click on save
 ![Pic 5](Pic5.png)
 
@@ -30,7 +31,6 @@
 ![Pic 7](Pic7.png)
 ---
 ## *Step 5*
-## Type cmd
 ## Type **cmd** and press enter
 ![Pic 8](Pic8.png)
 
