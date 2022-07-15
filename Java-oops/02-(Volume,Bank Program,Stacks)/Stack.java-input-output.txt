@@ -1,4 +1,5 @@
-//input output for sStack.java program
+//this is a .txt file
+//this contains input-output for Stack.java program
 
 Enter 1 to push in stack
 Enter 2 to pop from stack

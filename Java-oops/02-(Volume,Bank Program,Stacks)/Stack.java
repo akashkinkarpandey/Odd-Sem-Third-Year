@@ -5,6 +5,7 @@ import java.util.*;
 //Write push pop functions
 //After pushing,popping, display the contents
 
+//input-output is contained in .txt file
 class Stacks {
     int i;
     int[] a = new int[10];
