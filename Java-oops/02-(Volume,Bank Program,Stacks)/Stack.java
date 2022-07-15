@@ -51,12 +51,18 @@ class Stack {
                     if (choice1 == 1) {
                         System.out.println("Enter number to be pushed in stack 1");
                         int n = sc.nextInt();
+                        if(s1.i!=9)
                         System.out.println("Contents of stack 1 from top to bottom after inserting " + n + " is");
+                        else 
+                        System.out.println("Stack 1 is full,its contents are ");
                         s1.push(n);
                     } else if (choice1 == 2) {
                         System.out.println("Enter number to be pushed in stack 2");
                         int n = sc.nextInt();
-                        System.out.println("Contents of stack 2 from top to bottom after inserting " + n + " is");
+                        if(s2.i!=9)
+                            System.out.println("Contents of stack 2 from top to bottom after inserting " + n + " is");
+                        else 
+                            System.out.println("Stack 2 is full,its contents are ");
                         s2.push(n);
                     } else {
                         System.out.println("Wrong choice");
