@@ -73,15 +73,15 @@ class Stack {
                     System.out.println("Enter 2 to use stack 2");
                     int choice2 = sc.nextInt();
                     if (choice2 == 1) {
-                        if (s1.i > 1)
-                            System.out.println("Contents of stack 1 after pop top to bottom is is");
+                        if (s1.i >=1)
+                            System.out.println("Contents of stack 1  top to bottom after pop is is");
                         s1.pop();
                         if (s1.i == -1) {
                             System.out.println("Stack 1 is empty");
                         }
                     } else if (choice2 == 2) {
-                        if (s2.i > 1)
-                            System.out.println("Contents of stack 2 after pop from top to bottom is");
+                        if (s2.i >=1)
+                            System.out.println("Contents of stack 2  from top to bottom after pop is");
                         s2.pop();
                         if (s2.i == -1) {
                             System.out.println("Stack 2 is empty");
