@@ -1,0 +1,123 @@
+//input output for sStack.java program
+
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+1
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+2
+Enter number to be pushed in stack 2
+5
+Contents of stack 2 from top to bottom after inserting 5 is
+5
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+2
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Contents of stack 1 after pop top to bottom is is
+Stack 1 is empty
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+2
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+2
+Contents of stack 2 after pop from top to bottom is
+
+Stack 2 is empty
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+1
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Enter number to be pushed in stack 1
+5
+Contents of stack 1 from top to bottom after inserting 5 is
+5
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+1
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Enter number to be pushed in stack 1
+7
+Contents of stack 1 from top to bottom after inserting 7 is
+7 5
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+1
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Enter number to be pushed in stack 1
+8
+Contents of stack 1 from top to bottom after inserting 8 is
+8 7 5
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+2
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Contents of stack 1 after pop top to bottom is is
+7
+5
+
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+1
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+2
+Enter number to be pushed in stack 2
+6
+Contents of stack 2 from top to bottom after inserting 6 is
+6
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+2
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Contents of stack 1 after pop top to bottom is is
+5
+
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+1
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+2
+Enter number to be pushed in stack 2
+7
+Contents of stack 2 from top to bottom after inserting 7 is
+7 6
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+2
+Enter 1 to use stack 1
+Enter 2 to use stack 2
+1
+Contents of stack 1 after pop top to bottom is is
+
+Stack 1 is empty
+Enter 1 to push in stack
+Enter 2 to pop from stack
+Enter any other number to exit
+5
+Exiting
