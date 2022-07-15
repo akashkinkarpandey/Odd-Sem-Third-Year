@@ -27,8 +27,8 @@ void withdraw(int amount)
 	{
 		if(balance<0)
 		{
-			System.out.println("Unable to withdraw from Current");
-			System.out.println("as there is an overdraft of "+overdraft);
+			System.out.print("Unable to withdraw from current account ");
+			System.out.println(" as there is an overdraft of "+overdraft);
 		}
 		else
 		{
@@ -46,25 +46,26 @@ int checkBalance()
 {
 	return balance;
 }
+}
 class BankAccount
 {
-	public static void main(String args[])throws IOExceptipon
+	public static void main(String args[]) throws IOException
 	{
 		BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
-		
+
 		while(1==1)
 		{
-			System.out.println("Keep entering new user date. Press 0 to continue.Press 1 to exit")
-			int n=Integer.parseInt(br.readLine());
-			if(n==1)
+			System.out.println("Keep entering new user date. Press 0 to continue.Press 1 to exit");
+			int tt=Integer.parseInt(br.readLine());
+			if(tt==1)
 				break;
-			else if(n!=0)
+			else if(tt!=0)
 			{
 				System.out.println("Wrong input..Enter again");
 				continue;
 			}
-			System.out.println("Enter account type- C for Current S for Savings");
-			char type=br.read();
+			System.out.println("Enter account type- C for Current, S for Savings");
+			char type=(char)br.read();
 			System.out.println("Enter account holder name");
 			String name=br.readLine();
 			System.out.println("Enter account number");
@@ -74,9 +75,9 @@ class BankAccount
 			Bank b=new Bank(name,type,account,balance);
 			System.out.println("Account holder's name is "+b.name);
 			if(type=='C')
-				System.out.println("Account holder's account type is "+ Current);
+				System.out.println("Account holder's account type is Current");
 			else 
-				System.out.println("Account holder's account type is "+ Savings);
+				System.out.println("Account holder's account type is Savings ");
 			System.out.println("Account holder's account number is "+b.account);
 			while(1==1)
 			{
@@ -110,7 +111,7 @@ class BankAccount
 				}
 				else if(choice==3)
 				{
-					System.out.println("Balance is "+b.balance);
+					System.out.println("Balance is "+b.checkBalance());
 				}
 				else
 				{
