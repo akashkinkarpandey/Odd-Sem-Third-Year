@@ -37,5 +37,6 @@ public class Volume2 {
 		} else {
 			System.out.println("Cube has greater volume");
 		}
+		sc.close();
 	}
 }
