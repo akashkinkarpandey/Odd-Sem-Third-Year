@@ -1,9 +1,23 @@
 import java.util.*;
+//Qs
+//Create a Box class 
+//add a paramterized constructor to initialize data members
+//Write another method to return volume
+//create a cuboid and cube ,find which one is bigger. 
 
+//input-output
+// Enter length,breadth,height of cuboid
+// 4 3 5
+// Enter side of cube
+// 3
+// Volume of Cuboid is 60.0
+// Volume of Cube is 27.0
+// Cuboid has greater volume
 class Box1 {
 	double length, breadth, height;
 
 	Box1(double l, double b, double h) {
+		//  parameterized constructor
 		length = l;
 		breadth = b;
 		height = h;
@@ -31,8 +45,10 @@ public class Volume1 {
 		System.out.println("Volume of Cube is " + second);
 		if (first > second) {
 			System.out.println("Cuboid has greater volume");
-		} else {
+		} else if (first < second) {
 			System.out.println("Cube has greater volume");
+		} else {
+			System.out.println("Cube and cuboid have same volume");
 		}
 		sc.close();
 	}
