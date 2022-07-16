@@ -57,7 +57,6 @@ class Bank {
 class BankAccount {
 	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
 		while (true) {
 			System.out.println("For new user date. Press 0 to continue.Press 1 to exit");
 			int n1 = Integer.parseInt(br.readLine());
