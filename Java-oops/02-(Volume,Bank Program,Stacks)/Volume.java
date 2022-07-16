@@ -40,7 +40,7 @@ public class Volume {
 		Scanner sc = new Scanner(System.in);
 		Box rectangle = new Box();
 		Box cube = new Box();
-		System.out.println("Enter length,breadth,height of cuboid");
+		System.out.println(" Enter length,breadth,height of cuboid");
 		double l = sc.nextDouble();
 		double b = sc.nextDouble();
 		double h = sc.nextDouble();
