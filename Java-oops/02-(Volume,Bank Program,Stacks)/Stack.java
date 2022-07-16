@@ -1,7 +1,7 @@
 import java.util.*;
 //important->name your file as Stack.java (not Stacks.java)
 //Qs
-//Create 2 stacks capable of hoding 10 integer values
+//Create 2 stacks capable of holding 10 integer values
 //Write push pop functions
 //After pushing,popping, display the contents
 
