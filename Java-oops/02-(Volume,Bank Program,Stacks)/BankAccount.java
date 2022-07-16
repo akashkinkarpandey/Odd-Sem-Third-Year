@@ -69,7 +69,7 @@ class BankAccount {
 			System.out.println("Enter account type- C for Current, S for Savings");
 			// char type=(char)br.read();
 			char type = br.readLine().charAt(0);
-			if(type!='C' && type!='S')
+			if(type!='S' && type!='C')
 			{
 				System.out.println("Wrong input..");
 				continue;
