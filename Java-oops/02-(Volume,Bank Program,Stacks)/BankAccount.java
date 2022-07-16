@@ -1,12 +1,20 @@
 import java.io.*;
-
+//Qs
+//create the following data members:-
+//account holder name, type of account(current or savings),account number,balance,overdraft
+//create the following functions
+//withdraw(),deposit(),checkBalance()
+//Some points:-
+//Savings account should have minimum 1000 rupees
+//Suppose you have 400 rupees in current account and you withdraw 500 there will be an overdraft of 100 and balance will be -100
+//one account number will be have unique account holder and either current or savings account
+//same account number cannot have both savings and current account
 class Bank {
 	String name;
 	char type;
 	String account;
 	int balance;
 	int overdraft;
-
 	Bank(String name, char type, String account, int balance) {
 		this.name = name;
 		this.type = type;
@@ -35,6 +43,10 @@ class Bank {
 
 	void deposit(int amount) {
 		balance += amount;
+		if(balance<0)
+			overdraft=-balance;
+		else if(balance>=0)
+			overdraft=0;
 	}
 
 	int checkBalance() {
@@ -47,34 +59,45 @@ class BankAccount {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
 		while (true) {
-			System.out.println("Keep entering new user date. Press 0 to continue.Press 1 to exit");
-			int tt = Integer.parseInt(br.readLine());
-			if (tt == 1)
+			System.out.println("For new user date. Press 0 to continue.Press 1 to exit");
+			int n1 = Integer.parseInt(br.readLine());
+			if (n1 == 1)
 				break;
-			else if (tt != 0) {
+			else if (n1 != 0) {
 				System.out.println("Wrong input..Enter again");
 				continue;
 			}
 			System.out.println("Enter account type- C for Current, S for Savings");
 			// char type=(char)br.read();
 			char type = br.readLine().charAt(0);
+			if(type!='C' && type!='S')
+			{
+				System.out.println("Wrong input..");
+				continue;
+			}
 			System.out.println("Enter account holder name");
 			String name = br.readLine();
 			System.out.println("Enter account number");
 			String account = br.readLine();
 			System.out.println("Enter amount to be put");
 			int balance = Integer.parseInt(br.readLine());
+			if (type == 'S' && balance < 1000) {
+				System.out.println("Less than 1000 not allowed in savings account");
+				continue;
+			}
 			Bank b = new Bank(name, type, account, balance);
+			System.out.println("-------------------------");
 			System.out.println("Account holder's name is " + b.name);
 			if (type == 'C')
-				System.out.println("Account holder's account type is Current");
+				System.out.println(b.name+"'s account type is Current");
 			else
-				System.out.println("Account holder's account type is Savings ");
-			System.out.println("Account holder's account number is " + b.account);
+				System.out.println(b.name+"'s account type is Savings ");
+			System.out.println(b.name+"'s account number is " + b.account);
 			while (true) {
-
-				System.out.println("Account holder's balance is " + b.balance);
-				System.out.println("Account holder's overdraft is " + b.overdraft);
+				System.out.println("-------------------------");
+				System.out.println(b.name+"'s final balance is " + b.balance);
+				System.out.println(b.name+"'s final overdraft is " + b.overdraft);
+				System.out.println("-------------------------");
 				System.out.println("To continue with same user press 1 else press 2 to create a new user's account");
 				int choice = Integer.parseInt(br.readLine());
 				if (choice == 2) {
@@ -100,5 +123,6 @@ class BankAccount {
 				}
 			}
 		}
+		 br.close();
 	}
 }

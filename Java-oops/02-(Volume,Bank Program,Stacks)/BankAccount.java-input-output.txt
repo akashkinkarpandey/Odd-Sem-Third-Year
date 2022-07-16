@@ -1,0 +1,136 @@
+//this is a .txt file
+//input outputs of Bank.java are here
+
+For new user date. Press 0 to continue.Press 1 to exit
+0
+Enter account type- C for Current, S for Savings
+f
+Wrong input..
+For new user date. Press 0 to continue.Press 1 to exit
+0
+Enter account type- C for Current, S for Savings
+S
+Enter account holder name
+akashji
+Enter account number
+453wcnf78
+Enter amount to be put
+999
+Less than 1000 not allowed in savings account
+For new user date. Press 0 to continue.Press 1 to exit
+0
+Enter account type- C for Current, S for Savings
+S
+Enter account holder name
+priya
+Enter account number
+57chnchbf564
+Enter amount to be put
+1000
+-------------------------
+Account holder's name is priya
+priya's account type is Savings
+priya's account number is 57chnchbf564
+-------------------------
+priya's final balance is 1000
+priya's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+1
+Press 1 withdraw,2 to deposit,3 to check balance
+1
+Enter amount to withdraw
+1
+Unable to withdraw from Savings
+-------------------------
+priya's final balance is 1000
+priya's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+1
+Press 1 withdraw,2 to deposit,3 to check balance
+2
+Enter amount to deposit
+1000
+-------------------------
+priya's final balance is 2000
+priya's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+1
+Press 1 withdraw,2 to deposit,3 to check balance
+1
+Enter amount to withdraw
+3000
+Unable to withdraw from Savings
+-------------------------
+priya's final balance is 2000
+priya's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+2
+For new user date. Press 0 to continue.Press 1 to exit
+0
+Enter account type- C for Current, S for Savings
+shirshendu
+Wrong input..
+For new user date. Press 0 to continue.Press 1 to exit
+0
+Enter account type- C for Current, S for Savings
+C
+Enter account holder name
+shirshendu
+Enter account number
+657dgdgxf563vc
+Enter amount to be put
+500
+-------------------------
+Account holder's name is shirshendu
+shirshendu's account type is Current
+shirshendu's account number is 657dgdgxf563vc
+-------------------------
+shirshendu's final balance is 500
+shirshendu's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+1
+Press 1 withdraw,2 to deposit,3 to check balance
+1
+Enter amount to withdraw
+600
+-------------------------
+shirshendu's final balance is -100
+shirshendu's final overdraft is 100
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+1
+Press 1 withdraw,2 to deposit,3 to check balance
+1
+Enter amount to withdraw
+100
+Unable to withdraw from current account  as there is an overdraft of 100
+-------------------------
+shirshendu's final balance is -100
+shirshendu's final overdraft is 100
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+1
+Press 1 withdraw,2 to deposit,3 to check balance
+2
+Enter amount to deposit
+500
+-------------------------
+shirshendu's final balance is 400
+shirshendu's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+3
+Wrong input...
+-------------------------
+shirshendu's final balance is 400
+shirshendu's final overdraft is 0
+-------------------------
+To continue with same user press 1 else press 2 to create a new user's account
+2
+For new user date. Press 0 to continue.Press 1 to exit
+1
