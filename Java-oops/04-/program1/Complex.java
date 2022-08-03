@@ -1,4 +1,58 @@
 import java.util.*;
+// Qs->
+// Create a class Complex for storing real and imaginary parts of Complex Number
+// The class should have static members to store number of complex numbers created and display it
+// Write static or non static method as required to calculate:-
+// 1 The sum difference and product of 2 complex numbers
+// 2 Modulus and complement of Complex Number
+// Define required constructors of the class
+
+//input-output
+// Press 1 to continue and any other number to exit
+// 1
+// Number of complex numbers operated upon till now is 0
+// Enter real and imaginary part of 1st complex number
+// 3 4
+// Enter real and imaginary part of 2nd complex number
+// 4 3
+// Sum of 3+i4 and 4+i3 is 7+i7
+// Subtraction of 3+i4 and 4+i3 is -1+i1
+// Product of 3+i4 and 4+i3 is 0+i25
+// Modulus of 3+i4 is 5.0
+// Modulus of 4+i3 is 5.0
+// Complement of 3+i4 is 3-i4
+// Complement of 4+i3 is 4-i3
+// Press 1 to continue and any other number to exit
+// 1
+// Number of complex numbers operated upon till now is 2
+// Enter real and imaginary part of 1st complex number
+// 5 0
+// Enter real and imaginary part of 2nd complex number
+// 0 5
+// Sum of 5+i0 and 0+i5 is 5+i5
+// Subtraction of 5+i0 and 0+i5 is 5+i-5
+// Product of 5+i0 and 0+i5 is 0+i25
+// Modulus of 5+i0 is 5.0
+// Modulus of 0+i5 is 5.0
+// Complement of 5+i0 is 5-i0
+// Complement of 0+i5 is 0-i5
+// Press 1 to continue and any other number to exit
+// 1
+// Number of complex numbers operated upon till now is 4
+// Enter real and imaginary part of 1st complex number
+// 3 3
+// Enter real and imaginary part of 2nd complex number
+// 6 6
+// Sum of 3+i3 and 6+i6 is 9+i9
+// Subtraction of 3+i3 and 6+i6 is -3+i-3
+// Product of 3+i3 and 6+i6 is 0+i36
+// Modulus of 3+i3 is 4.242640687119285
+// Modulus of 6+i6 is 8.48528137423857
+// Complement of 3+i3 is 3-i3
+// Complement of 6+i6 is 6-i6
+// Press 1 to continue and any other number to exit
+// 0
+// Number of complex numbers operated upon till now is 6
 class Complex
 {
     int r,i;
@@ -42,20 +96,12 @@ class Complex
         Scanner sc=new Scanner(System.in);
         while(true)
         {
-            System.out.println("Press 0 to exit.. 1 to continue ");
+            System.out.println("Press 1 to continue and any other number to exit");
             int choice=sc.nextInt();
-            if(choice==0)
+            System.out.println("Number of complex numbers operated upon till now is "+c);
+            if(choice!=1)
             {
             break;
-            }
-            else if(choice!=1)
-            {
-            System.out.println("Wrong choice..Enter again");
-            continue;
-            }
-            else
-            {
-                System.out.println("Number of complex numbers operated on till now is "+c);
             }
             System.out.println("Enter real and imaginary part of 1st complex number ");
             int real1=sc.nextInt();
@@ -75,11 +121,10 @@ class Complex
             System.out.println("Product of "+real1+"+i"+imaginary1+" and "+real2+"+i"+imaginary2+" is "+temp2.r+"+i"+temp2.i);
             System.out.println("Modulus of "+real1+"+i"+imaginary1+" is "+temp3);
             System.out.println("Modulus of "+real2+"+i"+imaginary2+" is "+temp4);
-            System.out.println("Compliment of "+real1+"+i"+imaginary1+" is "+real1+"-i"+imaginary1);
-            System.out.println("Compliment of "+real2+"+i"+imaginary2+" is "+real2+"-i"+imaginary2);
+            System.out.println("Complement of "+real1+"+i"+imaginary1+" is "+real1+"-i"+imaginary1);
+            System.out.println("Complement of "+real2+"+i"+imaginary2+" is "+real2+"-i"+imaginary2);
 
         }
         sc.close();
-
     }
 }
