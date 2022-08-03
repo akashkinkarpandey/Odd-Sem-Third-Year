@@ -22,7 +22,7 @@ import java.util.*;
 // Modulus of 4+i3 is 5.0
 // Complement of 3+i4 is 3-i4
 // Complement of 4+i3 is 4-i3
-// Press 1 to continue and any other number to exit
+// Press 1 to continue or any other number to exit
 // 1
 // Number of complex numbers operated upon till now is 2
 // Enter real and imaginary part of 1st complex number
@@ -36,7 +36,7 @@ import java.util.*;
 // Modulus of 0+i5 is 5.0
 // Complement of 5+i0 is 5-i0
 // Complement of 0+i5 is 0-i5
-// Press 1 to continue and any other number to exit
+// Press 1 to continue or any other number to exit
 // 1
 // Number of complex numbers operated upon till now is 4
 // Enter real and imaginary part of 1st complex number
@@ -50,7 +50,7 @@ import java.util.*;
 // Modulus of 6+i6 is 8.48528137423857
 // Complement of 3+i3 is 3-i3
 // Complement of 6+i6 is 6-i6
-// Press 1 to continue and any other number to exit
+// Press 1 to continue or any other number to exit
 // 0
 // Number of complex numbers operated upon till now is 6
 class Complex {
