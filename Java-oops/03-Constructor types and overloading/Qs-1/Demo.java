@@ -7,7 +7,8 @@
 // PS D:\Odd-Sem-Third-Year\Java-oops\03-\Qs-1> java Demo 2 3 4 5 1 2
 // length is 2 breadth is 3 height is 4
 // length is 5 breadth is 1 height is 2
-class Box {
+class Box 
+{
 	int l, b, h;
 	Box() {
 		// default constructor
