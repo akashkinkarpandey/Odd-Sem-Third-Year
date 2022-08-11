@@ -1,0 +1,3 @@
+All qs are mentioned in their respective .java files
+
+All input-output are also mentioned in their respective .java files
