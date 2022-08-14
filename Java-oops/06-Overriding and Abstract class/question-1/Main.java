@@ -1,4 +1,5 @@
-// Create a class Base with some method
+// Qs
+// Create a class Base with some method.
 // Derive another class from it which should contain a method with same name,type,signature as in the Base Class.
 // Show that the sub class version of method overrides the Base class version when called from the scope of sub-class.
 
@@ -21,7 +22,7 @@ class Child extends Base
     }
     public static void main(String[] args) 
     {
-        Child obj=new Child();
+        Child obj=new Child();//the b() in Child overrides b() in Base
         obj.b();
     }
 }
