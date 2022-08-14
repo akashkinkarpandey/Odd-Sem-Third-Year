@@ -14,55 +14,63 @@
 // 6
 // Area of triangle is 12.0
 import java.io.*;
+
 abstract class TwoDFigure {
-    double a,b;
-    abstract double calc();
+    double a, b;
+
+    TwoDFigure(double a, double b) {
+        this.a = a;
+        this.b = b;
+    }
+
+    double calc() {
+        return a * b;
+    }
+
+    abstract double calc1();
 }
 
 class Rectangle extends TwoDFigure {
-    double a,b;
-    Rectangle(int a,int b)
-    {
-        this.a=a;
-        this.b=b;
+    double a, b;
+
+    Rectangle(int a, int b) {
+        super(a, b);
     }
-    double calc() {
-        return a*b;
+
+    double calc1() {
+        return super.calc();
     }
 }
 
 class Triangle extends TwoDFigure {
-    double a,b;
-    Triangle(int a,int b)
-    {
-        this.a=a;
-        this.b=b;
+    double a, b;
+
+    Triangle(double a, double b) {
+        super(a, b);
     }
-    double calc() {
-        return 0.5*a*b;
+
+    double calc1() {
+        return 0.5 * super.calc();// 1/2 * base *height
     }
 }
-class Test
-{
-    public static void main(String[] args)throws IOException
-    {
-        BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
-        try{
-        System.out.println("Enter length of rectangle");
-        int a=Integer.parseInt(br.readLine());
-        System.out.println("Enter breadth of rectangle");
-        int b=Integer.parseInt(br.readLine());
-        Rectangle r=new Rectangle(a,b);
-        System.out.println("Area of rectanle is "+r.calc());
-        System.out.println("Enter side of triangle");
-        a=Integer.parseInt(br.readLine());
-        System.out.println("Enter another side of triangle");
-        b=Integer.parseInt(br.readLine());
-        Triangle r1=new Triangle(a,b);
-        System.out.println("Area of triangle is "+r1.calc());
-        }
-        catch(Exception e)
-        {
+
+class Test {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        try {
+            System.out.println("Enter length of rectangle");
+            int a = Integer.parseInt(br.readLine());
+            System.out.println("Enter breadth of rectangle");
+            int b = Integer.parseInt(br.readLine());
+            Rectangle r = new Rectangle(a, b);
+            System.out.println("Area of rectanle is " + r.calc1());
+            System.out.println("Enter side of triangle");
+            a = Integer.parseInt(br.readLine());
+            System.out.println("Enter another side of triangle");
+            b = Integer.parseInt(br.readLine());
+            Triangle r1 = new Triangle(a, b);
+            System.out.println("Area of triangle is " + r1.calc1());
+        } catch (Exception e) {
             System.out.println("Exception Found was:-");
             e.printStackTrace();
         }
