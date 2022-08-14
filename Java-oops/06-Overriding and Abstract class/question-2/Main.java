@@ -1,6 +1,6 @@
-// Create a Base class and derive 2 sub classes
+// Qs
+// Create a Base class and derive 2 sub classes from it.
 // Show that the methods with same name but different type,signatures are not over-riden but overloaded
-
 
 // PS C:\Users\C1 20\Desktop\akashji\Day 6\question-2> javac Main.java
 // PS C:\Users\C1 20\Desktop\akashji\Day 6\question-2> java Main      
@@ -23,6 +23,7 @@ class Base {
         System.out.println("I am func() from Base class with integer parameter " + a);
         return null;
     }
+    //the above 2 functions are overloaded due to difference in method signature
 }
 
 class Child1 extends Base {
@@ -34,6 +35,9 @@ class Child1 extends Base {
         System.out.println("I am func() from Child 1 class with String return type " + a);
         return null;
     }
+    //these functions are overloaded among themelves 
+    //due to difference in method signature
+    //these are also overriden from Base class
 }
 
 class Child2 extends Base {
@@ -45,10 +49,12 @@ class Child2 extends Base {
         System.out.println("I am func() from Child 2 class with StringBuffer return type " + a);
         return null;
     }
-
+    //these functions are overloaded among themelves 
+    //due to difference in method signature
+    //these functions are also overriden from Base class
 }
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         Child1 c1 = new Child1();
         c1.func();
