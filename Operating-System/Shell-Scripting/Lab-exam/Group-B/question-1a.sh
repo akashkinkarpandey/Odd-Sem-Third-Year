@@ -1,5 +1,5 @@
 # Question
-# Find the occurence of every character of string take as input in a file take as input
+# Find the occurence of every character of string taken as input in a filen take as input
 echo -e "Enter string \c"
 read string
 echo -e "Enter file \c"
