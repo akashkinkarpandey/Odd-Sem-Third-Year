@@ -55,7 +55,6 @@ echo # prints extra line
 #         cout<<i<<" ";
 #         if(n==0)
 #         {
-#             cout<<i;
 #             return 0;
 #         }
 #     }
