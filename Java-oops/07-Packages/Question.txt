@@ -1,0 +1,9 @@
+Create 2 packages named algebra and trigonometry.
+Create class named Complex_numbers in algebra package. 
+Create class named Trigo_calc in Trigonometry package.
+The Complex_numbers class should have two complex numbers and display them.
+The Trigo_calc should take the values sin 60 and cos 60 and dislay the corresponding values.
+Import these two packages in a java file containing the main method.
+Then perform addition and subtraction of 2 complex numbers.
+Also prove that (sin 60)^2 + (cos ^60)^2 = 1.
+
