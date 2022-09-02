@@ -1,0 +1,5 @@
+PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-1> javac Main.java
+PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-1> java Main      
+Show in A
+Show in B
+I am display method in Main

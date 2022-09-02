@@ -1,4 +1,0 @@
-Write a program in java to create 2 classes that implements an interface.
-Classes should provide different implementations of a method which was declared by interface.
-Create two instances of two different classes and a reference variable of interface to call method with different implementations.
-Also show that reference variable does not have access to those methods that are defined by class and not there in interface declaration.

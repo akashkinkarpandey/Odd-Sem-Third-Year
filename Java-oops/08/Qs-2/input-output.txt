@@ -1,3 +1,0 @@
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-2> javac Main.java
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-2> java Main
-show() in Main

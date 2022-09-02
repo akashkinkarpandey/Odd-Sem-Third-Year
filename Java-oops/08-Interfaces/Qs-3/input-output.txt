@@ -1,0 +1,50 @@
+PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-3> javac Stack.java
+PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-3> java Stack      
+Enter size
+3
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+1
+Enter number to be inserted
+2
+2 is inserted
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+1
+Enter number to be inserted
+5
+5 is inserted
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+1
+Enter number to be inserted
+6
+6 is inserted
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+2
+6 is popped
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+2
+5 is popped
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+2
+2 is popped
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+2
+Stack is Empty..Cannot pop
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+3
+Thanks for exiting
