@@ -1,5 +1,5 @@
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-1> javac Main.java
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-1> java Main      
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-1> javac Main.java
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-1> java Main
 Show in A
 Show in B
 I am display method in Main
