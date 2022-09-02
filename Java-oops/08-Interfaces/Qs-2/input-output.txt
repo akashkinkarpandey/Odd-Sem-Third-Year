@@ -1,3 +1,3 @@
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-2> javac Main.java
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-2> java Main
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-2> javac Main.java
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-2> java Main
 show() in Main

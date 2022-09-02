@@ -1,6 +1,6 @@
 public class A {
-    interface I{
-        interface J
+    public interface I{
+        public interface J
         {
         void show();
         }
