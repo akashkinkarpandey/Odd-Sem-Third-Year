@@ -1,0 +1,4 @@
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-4> javac Main.java
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-4> java Main
+Show in Main
+Show 1 in Main
