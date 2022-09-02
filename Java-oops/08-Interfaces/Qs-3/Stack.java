@@ -1,6 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-public class Stack  implements I
+public class Stack implements I
 {
     int size;
     int a[];

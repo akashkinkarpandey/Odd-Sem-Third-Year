@@ -1,43 +1,55 @@
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-3> javac Stack.java
-PS C:\Users\C1 18\Desktop\08-Akash-oops\Qs-3> java Stack      
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-3> javac Stack.java
+PS D:\Odd-Sem-Third-Year\Java-oops\08-Interfaces\Qs-3> java Stack
 Enter size
-3
+2
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
 1
 Enter number to be inserted
-2
-2 is inserted
+56
+56 is inserted
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
 1
 Enter number to be inserted
-5
-5 is inserted
+57
+57 is inserted
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
 1
 Enter number to be inserted
-6
-6 is inserted
+58
+Stack is Full
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
 2
-6 is popped
+57 is popped
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
 2
-5 is popped
+56 is popped
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
 2
-2 is popped
+Stack is Empty..Cannot pop
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+1
+Enter number to be inserted
+69
+69 is inserted
+Enter 1 to push
+Enter 2 to pop
+Enter any other number to exit
+2
+69 is popped
 Enter 1 to push
 Enter 2 to pop
 Enter any other number to exit
