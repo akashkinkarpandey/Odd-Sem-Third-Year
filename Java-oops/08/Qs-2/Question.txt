@@ -1,0 +1,1 @@
+Write a program in java to create a class that contains nested interface. Create another class that implements that nested interface and thereby defines method which contains only delaration within interface. In the main method create an interface reference variable to call that method accordingly.

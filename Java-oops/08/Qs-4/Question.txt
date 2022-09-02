@@ -1,0 +1,2 @@
+Write a program in java to create an interface. Create another interface that inherits the first interface. Create a class that implements the second interface. Show that this class must define all those methods that are declared in those two interfaces otherwise a compilation error would occur.
+In the main method,execute calls to each and every method declared in the interfaces.

@@ -1,0 +1,1 @@
+Write a java program to create a fixed sized stack using an interface and define the operations of stack with help of that interface.
