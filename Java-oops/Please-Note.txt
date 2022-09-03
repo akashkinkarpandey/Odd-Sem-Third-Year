@@ -1,3 +1,6 @@
 All qs are mentioned in their respective .java files
 
-All input-output are also mentioned in their respective .java files
+All input-output are also mentioned in their respective .java files in form of comments at the beginning.
+
+Some directories have Question.txt to contain the qs (not all)
+and some have input-output.txt to contain the inout outputs(not all)
