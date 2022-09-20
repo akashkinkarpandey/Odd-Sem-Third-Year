@@ -8,4 +8,4 @@ Important topics for internal exam:
 7. Employee Satisfaction
 8. Organization culture, climate
 9. Concept of Crashing and Updating (Important, application)
-10. Labour Law concept
+10. Labour Law concept(10. is not there in internals but in end sem)
