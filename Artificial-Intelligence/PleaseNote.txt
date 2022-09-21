@@ -12,7 +12,7 @@ Components of AI(5 components)
 learning, reasoning, problem solving, perception, and using language.
 
 mini-max algo
-alpha beta pruning (gate smashers)
+alpha beta pruning (gate smashers) (must)
 
 uniform cost search https://www.youtube.com/watch?v=FbI1lCNNxP8 
 
