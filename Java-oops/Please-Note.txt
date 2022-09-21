@@ -3,4 +3,31 @@ All qs are mentioned in their respective .java files
 All input-output are also mentioned in their respective .java files in form of comments at the beginning.
 
 Some directories have Question.txt to contain the qs (not all)
-and some have input-output.txt to contain the inout outputs(not all)
+and some have input-output.txt to contain the input outputs(not all)
+
+
+Internal suggestions-
+
+static keyword why we use it?
+where we use static?->methods, variables,inner classes
+uses of this keyword,super keyword
+what is class ,object
+oops pillars-PIE (Polymorphism, Inheritance, Encapsulation)
+major,minor elements
+minor->typing, concurrency and persistence
+typing is strong and weak
+
+
+///////
+Major Elements − By major, it is meant that if a model does not have any one of these elements, it ceases to be object oriented. The four major elements are −
+
+Abstraction
+Encapsulation
+Modularity
+Hierarchy
+Minor Elements − By minor, it is meant that these elements are useful, but not indispensable part of the object model. The three minor elements are −
+
+Typing
+Concurrency
+Persistence
+/////////
