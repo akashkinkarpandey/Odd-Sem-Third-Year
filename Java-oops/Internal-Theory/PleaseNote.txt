@@ -1,1 +1,2 @@
 
+IllegalStateException is type of checked Exception.
