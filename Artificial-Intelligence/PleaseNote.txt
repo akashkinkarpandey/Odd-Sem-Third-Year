@@ -1,1 +1,32 @@
 Check your google classroom for more ai notes
+
+local beam search (gate smashers) https://www.youtube.com/watch?v=jhoXO1XF6Fk 
+example do that maam gave
+
+Simulated annealing (hill climbing problem solve kore)
+gfg 
+
+DLS (gfg)
+
+Components of AI(5 components)
+learning, reasoning, problem solving, perception, and using language.
+
+mini-max algo
+alpha beta pruning (gate smashers)
+
+uniform cost search https://www.youtube.com/watch?v=FbI1lCNNxP8 
+
+Send more money 
+https://www.youtube.com/watch?v=aZblDSAx4cg 
+crypt arithmetic
+
+Cannibal 
+https://www.youtube.com/watch?v=yLEB-n4URu4
+
+Water jug
+https://www.youtube.com/watch?v=WtRWfbUZzZw
+
+Constraint satisfaction problem
+
+
+
