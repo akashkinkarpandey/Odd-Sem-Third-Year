@@ -1,5 +1,7 @@
 Check your google classroom for more ai notes
 
+A problem solving search proceed in either forward or backward direction. Justify? 
+
 local beam search (gate smashers) https://www.youtube.com/watch?v=jhoXO1XF6Fk 
 example do that maam gave
 
