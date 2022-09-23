@@ -1,5 +1,7 @@
 Check your google classroom for more ai notes
 
+Must and must see->Production System.txt , Declarative-Procedural Knowledge difference.txt from here on githu
+
 A problem solving search proceed in either forward or backward direction. Justify? 
 
 local beam search (gate smashers) https://www.youtube.com/watch?v=jhoXO1XF6Fk 
