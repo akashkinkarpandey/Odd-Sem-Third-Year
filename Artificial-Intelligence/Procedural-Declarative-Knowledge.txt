@@ -1,0 +1,20 @@
+Procedural Knowledge
+Declarative Knowledge  ---------Difference
+1.
+It is also known as Interpretive knowledge.
+It is also known as Descriptive knowledge.
+2.
+Procedural Knowledge means how a particular thing can be accomplished.
+While Declarative Knowledge means basic knowledge about something.
+3.
+Procedural Knowledge is generally not used means it is not more popular.
+Declarative Knowledge is more popular.
+4.
+Procedural Knowledge can’t be easily communicate.
+Declarative Knowledge can be easily communicate.
+5.
+Procedural Knowledge is generally process oriented in nature.
+Declarative Knowledge is data oriented in nature.
+6.
+In Procedural Knowledge debugging and validation is not easy.
+In Declarative Knowledge debugging and validation is easy.
