@@ -1,5 +1,5 @@
 Check your google classroom for more ai notes
-
+What to study?
 Must and must see->Production System.txt , Declarative-Procedural Knowledge difference.txt from here on githu
 
 A problem solving search proceed in either forward or backward direction. Justify? 
