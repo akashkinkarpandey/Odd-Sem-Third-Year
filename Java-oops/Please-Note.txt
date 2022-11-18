@@ -1,3 +1,10 @@
+For end sem
+must see-
+Link vs Association
+Generalization vs Specialization
+
+
+
 All qs are mentioned in their respective .java files
 
 All input-output are also mentioned in their respective .java files in form of comments at the beginning.
