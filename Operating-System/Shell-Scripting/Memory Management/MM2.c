@@ -5,10 +5,10 @@
 int mini=INT_MAX;
 struct node
 {
-    char id;
-    int sa;
-    int size;
-    struct node* next;
+    char id;//id of process or hole,for hole id is 'Z'
+    int sa;//starting address
+    int size;//side of process
+    struct node* next;//next pointer
 };
 
 void traversal(struct node *ptr)
