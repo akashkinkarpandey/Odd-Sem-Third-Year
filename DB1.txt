@@ -1,0 +1,44 @@
+CREATE TABLE Akash_48_EMP
+(
+Emp_no Number,
+Name varchar2(3),
+Job char,
+Mgr Number,
+HireDate Date,
+Salary Number,
+Comission Number,
+Dept Number
+);
+
+ALTER TABLE Akash_48_EMP
+ADD PhoneNumber Number;
+
+ALTER TABLE Akash_48_EMP
+MODIFY Job varchar(5);
+
+DESC Akash_48_EMP;
+
+insert into Akash_48_EMP (Emp_no ,Name ,Job,Mgr ,HireDate ,Salary ,Comission ,Dept)
+VALUES ('29','akp','ijg','6288','16-Jan-2002','5600','98','56');
+
+insert into Akash_48_EMP (Emp_no ,Name ,Job,Mgr ,HireDate ,Salary ,Comission ,Dept)
+VALUES ('29','pkp','ijg','6718','25-Jan-2002','5600','100','56');
+
+insert into Akash_48_EMP (Emp_no ,Name ,Job,Mgr ,HireDate ,Salary ,Comission ,Dept)
+VALUES ('29','bk','ijg','6758','22-Jan-2002','5600','99','6');
+
+insert into Akash_48_EMP (Emp_no ,Name ,Job,Mgr ,HireDate ,Salary ,Comission ,Dept)
+VALUES ('29','cy','ijg','688','21-Apr2002','5600','98','7');
+
+insert into Akash_48_EMP (Emp_no ,Name ,Job,Mgr ,HireDate ,Salary ,Comission ,Dept)
+VALUES ('29','dtu','ijg','6789','20-Feb2002','5600','8','8');
+
+SELECT * from Akash_48_EMP
+
+--DROP TABLE Akash_48_Emp
+
+CREATE TABLE Akash_48_DEPT(
+Dept_no Number,
+Dept_name varchar(3),
+LOC varchar(5)
+);
